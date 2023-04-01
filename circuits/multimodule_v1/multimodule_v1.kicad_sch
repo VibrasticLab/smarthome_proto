@@ -1201,6 +1201,7 @@
     )
   )
 
+
   (junction (at 153.67 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 030b2994-65f9-4938-aa8e-da269bfa1496)
   )
@@ -1265,6 +1266,7 @@
   (no_connect (at 114.3 72.39) (uuid a0edd036-3f55-427d-9448-7d6ad597c735))
   (no_connect (at 115.57 148.59) (uuid aa0f2c3d-9641-40b4-8e5f-a1a68889eeae))
   (no_connect (at 91.44 138.43) (uuid abbfbcbc-2306-4bcd-a676-39aeda1fd986))
+  (no_connect (at 95.25 138.43) (uuid b5836d8d-784a-470b-858e-73f83fb51256))
   (no_connect (at 114.3 57.15) (uuid d5179a35-9ca8-4396-9a6f-6f1fe7906665))
   (no_connect (at 115.57 151.13) (uuid d8a69f64-15e6-41dd-ae49-0ae1701ce94a))
   (no_connect (at 83.82 85.09) (uuid e3b2f579-9b91-4472-971f-7277a7550a35))
@@ -3522,7 +3524,7 @@
     (property "Value" "BATT" (at 139.065 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (at 138.43 130.81 0)
+    (property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" (at 138.43 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 130.81 0)
