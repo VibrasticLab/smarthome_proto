@@ -26,6 +26,8 @@ Currently doesnt support any control mechanism, only measuring.
 
 ### ESP32 Pinout
 
+NodeMCU Module: 
+
 | I/O | Func | Connect |
 |:---:|:----:|:-------:|
 | EN | RESET | Pull-up Button |
@@ -39,6 +41,7 @@ Currently doesnt support any control mechanism, only measuring.
 | 21 | SDA | I2C Line |
 | 22 | SCL | I2C Line |
 | 23 | SPI DATA | MIC |
+| 33 | ADC | VBAT |
 | 34 | ADC | CO2 |
 
 
