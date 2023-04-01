@@ -447,8 +447,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "mockup3d/nodemcu_based.step",
+      "vrml": "mockup3d/nodemcu_based.wrl"
     },
     "page_layout_descr_file": ""
   },

@@ -20,13 +20,9 @@ Currently doesnt support any control mechanism, only measuring.
 - MEMS Microphone (I2S)
     + INMP441: [Tokped](https://www.tokopedia.com/aifrobotic/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
 
-### Display Options
-- LCD Alphanumeric (I2C)
-    + 16x02: [Tokped](https://www.tokopedia.com/akhishop/lcd-16x2-blue-backlight-with-i2c-module)
-
 ### ESP32 Pinout
 
-NodeMCU Module: 
+NodeMCU Module: [Tokped](https://www.tokopedia.com/temins/esp32-esp-32-arduino-wifi-bluetooth-iot-development-board-micro-usb)
 
 | I/O | Func | Connect |
 |:---:|:----:|:-------:|
