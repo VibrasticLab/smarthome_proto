@@ -1,0 +1,100 @@
+\documentclass[a4paper,12pt,oneside,pdflatex,italian,final,twocolumn]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{parallel}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{smartdiagram}
+\usepackage{verbatim}
+
+\usepackage[export]{adjustbox}
+\usepackage[margin=0.5in]{geometry}
+\addtolength{\topmargin}{0in}
+
+\usepackage{libertine}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\urlstyle{sf}
+\hypersetup{
+	colorlinks=true, %set true if you want colored links
+	linktoc=all,     %set to all if you want both sections and subsections linked
+	linkcolor=blue,  %choose some color if you want links to stand out
+	urlcolor=blue,   %url color
+}
+
+\smartdiagramset{text width=2cm,module x sep= 3.4,back arrow disabled=true,}
+
+\title{Smarthome Measurement Node Prototype}
+\author{Achmadi ST MT}
+\date{April 2023}
+
+\begin{document}
+	\pagestyle{fancy}
+	
+	\lhead{VibrasticLab}
+	\chead{\today}
+	\rhead{Specification Document v1.0}
+	
+	\onecolumn
+	
+	\begin{figure}
+		
+	\end{figure}\begin{minipage}{0.47\textwidth}
+		\centering
+		
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.47\textwidth}
+		\raggedleft
+		\Huge \textbf{Smarthome Measurement Node}
+	\end{minipage}
+
+	\begin{figure}
+		\begin{minipage}{0.47\textwidth}
+			
+			\section{Overview}
+			\begin{itemize}
+				\item Battery AAA Operated
+				\item Low-Power WiFi Cient
+				\item Re-Programmable Firmware
+				\item Analog, I2S, and I2C interfaces
+				\item Indicator LEDs Array
+			\end{itemize}
+			
+			
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.47\textwidth}
+			\centering
+			\includegraphics[width=0.7\textwidth,right]{images/view_ortho.png}
+
+	\end{minipage}
+	\end{figure}
+
+	\raggedright
+	\section{Main Unit Part}
+	
+	\centering
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\textwidth,]{images/node_part.png}
+		\caption{Prototype Unit Parts}
+	\end{figure}
+
+	\raggedright
+	\section{Data Exchange Flow}
+	
+	\smartdiagram[flow diagram:horizontal]{Multi Sensor Node,
+		MQTT or HTTP Server, Data Bank Server, Data Fetch API, Python or Matlab Analysis}\\
+	
+	\vspace{10pt}
+	
+	\textbf{NOTES:} Its recommended to use Local Server infrastructure, preferably in accessable server room during development phase.
+
+\end{document}

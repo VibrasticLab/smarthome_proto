@@ -23,7 +23,7 @@ Currently doesnt support any control mechanism, only measuring.
 ### ESP32 Pinout
 
 NodeMCU Module: [Tokped](https://www.tokopedia.com/temins/esp32-esp-32-arduino-wifi-bluetooth-iot-development-board-micro-usb)
-
+BH1750
 | I/O | Func | Connect |
 |:---:|:----:|:-------:|
 | EN | RESET | Pull-up Button |
