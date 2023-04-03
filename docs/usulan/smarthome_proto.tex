@@ -93,7 +93,7 @@
 	\smartdiagram[flow diagram:horizontal]{Multi Sensor Node,
 		MQTT or HTTP Server, Data Bank Server, Data Fetch API, Python or Matlab Analysis}\\
 
-	\vspace{10pt}
+	\vspace{5pt}
 
 	\textbf{NOTES:} Its recommended to use Local Server infrastructure, preferably in accessable server room during development phase.
 
@@ -128,7 +128,11 @@
 		\begin{itemize}
 			\item MG-811 CO2 sensor requires heating to operate, thus consume high power from battery.
 
+			\item MG-811 CO2 sensor are very expensive and limited local stock.
+
 			\item Light Intensity might influenced by placement angle.
+
+			\item Mic INMP411 requires good digital signal processing in embedded programming manner.
 		\end{itemize}
 
 	\end{itemize}
@@ -145,9 +149,53 @@
 		NodeMCU ESP32 & Rp. 66.800 & \href{https://www.tokopedia.com/temins/esp32-esp-32-arduino-wifi-bluetooth-iot-development-board-micro-usb}{Tokped} \\
 		HTU21D & Rp. 35.000 & \href{https://www.tokopedia.com/akhishop/htu21d-temperature-and-humidity-sensor-module}{Tokped} \\
 		BH1750 & Rp. 20.000 & \href{https://www.tokopedia.com/akhishop/gy-302-light-intensity-bh1750-module-sensor-intensitas-cahaya}{Tokped} \\
+		MG-811 CO2 & Rp. 895.000 & \href{https://www.tokopedia.com/khursiot/dfrobot-analog-co2-gas-sensor-for-arduino-mg-811-sensor}{Tokped} \\
+		R 0805 & Rp. 2.000 & \href{https://www.tokopedia.com/thingie/resistor-0805-5-102-1k-ohm-smd-2012}{Tokped} \\
+		LED 0805 & Rp. 2.000 & \href{https://www.tokopedia.com/easyware-id/led-smd-0805-super-bright-all-color-led-smd-0805-semua-warna-putih}{Tokped} \\
+		Diode 1N4007 & Rp. 500 & \href{https://www.tokopedia.com/dx-tronics/diode-1n4007-in4007-dioda-rectifier-1a-1000v}{Tokped} \\
+		Mic INMP411 & Rp. 40.000 & \href{https://www.tokopedia.com/aifrobotic/inmp441-omnidirectional-microphone-module-mems-i2s-interface}{Tokped} \\
+		Header/Cable/Switches & Rp. 50.000 & \href{https://www.tokopedia.com/eltech-online}{Tokped} \\
+		PCB Fabrication & Rp. 50.000 & \href{https://www.tokopedia.com/geraicerdas/cetak-pcb-1-keping-single-double-layer-rapid-prototyping-satuan}{Tokped} \\
+		Shipping Cost Overall & Rp. 50.000 & - \\
 		\midrule
-		Total & Rp. 674.100  & - \\
+		Total & Rp. 1.211.300  & - \\
 		\bottomrule
 	\end{tabular}
 
+	\vspace{5pt}
+	\textbf{Notes:} Its recommended to build multiple units to monitor single room in different multiple placements.
+
+	\subsection{Personel Cost}
+
+	\begin{tabular}{|l|l|l|l|}
+		\toprule
+		Jobs & Price & Personel & Alternative \\
+		\midrule
+		PCB Assembly and QC & Rp. 1.000.000 & Achmadi & Tim LabFisis \\
+		Firmware Developer & Rp. 2.000.000 & Achmadi & Tim Labkom \\
+		Purchasing Staff & Rp. 500.000 & - & Asisten LabVibrastik \\
+		Project Manager/Admin & Rp. 1.000.000 & Ammar & Asisten LabVibrastik \\
+		Calibration Team & Rp. 1.000.000 & - &  Asisten LabVibrastik \\
+		Backend Developer & Rp. 2.000.000 & Pras & Tim Labkom \\
+		Server Infastructure Team & Rp. 500.000 & - & Tim Labkom \\
+		\midrule
+		Total & Rp. 8.000.000  & - & - \\
+		\bottomrule
+	\end{tabular}
+
+	\vspace{5pt}
+	\textbf{Note:} This the recommended jobdesc list, but the price here are only proposed estimation and still negotiable.
+
+	\subsection{Development Cost}
+
+	\begin{tabular}{|l|l|l|}
+		\toprule
+		Item & Qty & Price \\
+		\midrule
+		Measurement Node Cost & 5 prototype units & Rp. 6.056.500 \\
+		Personel/Team & one-time project & Rp. 8.000.000 \\
+		\midrule
+		Total & - & Rp. 14.056.500 \\
+		\bottomrule
+	\end{tabular}
 \end{document}
